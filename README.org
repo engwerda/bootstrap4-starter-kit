@@ -1,0 +1,32 @@
+* Bootstrap4 Starter Kit
+
+[[https://github.com/engwerda/bootstrap4-starter-kit][Bootstrap4 Starter Kit]] is a boilerplate for web development based on [[https://github.com/google/web-starter-kit][Web Starter Kit]].
+
+** Quickstart
+
+*** Clone this repository.
+#+BEGIN_SRC shell
+git clone https://github.com/engwerda/bootstrap4-starter-kit.git
+#+END_SRC
+
+*** Next, install the local dependencies.
+#+BEGIN_SRC shell
+npm install
+#+END_SRC
+
+** Commands
+
+*** Watch For Changes & Automatically Refresh Across Devices
+#+BEGIN_SRC shell
+gulp serve
+#+END_SRC
+
+*** Build & Optimize
+#+BEGIN_SRC shell
+gulp
+#+END_SRC
+
+*** Serve the Fully Built & Optimized Site
+#+BEGIN_SRC shell
+gulp serve:dist
+#+END_SRC
